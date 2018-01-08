@@ -1,0 +1,3 @@
+C:/Users/surfe/GitHub/school/Theory/prime/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/surfe/GitHub/school/Theory/prime/cmake-build-debug/CMakeFiles/prime.dir
+C:/Users/surfe/GitHub/school/Theory/prime/cmake-build-debug/CMakeFiles/rebuild_cache.dir
