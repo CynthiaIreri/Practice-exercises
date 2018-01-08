@@ -47,10 +47,10 @@ RM = "C:\Program Files (x86)\JetBrains\CLion 2016.3.2\bin\cmake\bin\cmake.exe" -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\surfe\GitHub\school\Theory\prime
+CMAKE_SOURCE_DIR = C:\Users\surfe\GitHub\euler-project-practice\problem-3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\surfe\GitHub\school\Theory\prime\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\surfe\GitHub\euler-project-practice\problem-3\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\surfe\GitHub\school\Theory\prime\cmake-build-debug\CMakeFiles C:\Users\surfe\GitHub\school\Theory\prime\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\surfe\GitHub\euler-project-practice\problem-3\cmake-build-debug\CMakeFiles C:\Users\surfe\GitHub\euler-project-practice\problem-3\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\surfe\GitHub\school\Theory\prime\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\surfe\GitHub\euler-project-practice\problem-3\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named prime
+# Target rules for targets named problem-3
 
 # Build rule for target.
-prime: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 prime
-.PHONY : prime
+problem-3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 problem-3
+.PHONY : problem-3
 
 # fast build rule for target.
-prime/fast:
-	$(MAKE) -f CMakeFiles\prime.dir\build.make CMakeFiles/prime.dir/build
-.PHONY : prime/fast
+problem-3/fast:
+	$(MAKE) -f CMakeFiles\problem-3.dir\build.make CMakeFiles/problem-3.dir/build
+.PHONY : problem-3/fast
 
 main.obj: main.cpp.obj
 
@@ -128,7 +128,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\prime.dir\build.make CMakeFiles/prime.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\problem-3.dir\build.make CMakeFiles/problem-3.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -137,7 +137,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\prime.dir\build.make CMakeFiles/prime.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\problem-3.dir\build.make CMakeFiles/problem-3.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -146,7 +146,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\prime.dir\build.make CMakeFiles/prime.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\problem-3.dir\build.make CMakeFiles/problem-3.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -156,7 +156,7 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
-	@echo ... prime
+	@echo ... problem-3
 	@echo ... rebuild_cache
 	@echo ... main.obj
 	@echo ... main.i

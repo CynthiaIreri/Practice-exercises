@@ -47,10 +47,10 @@ RM = "C:\Program Files (x86)\JetBrains\CLion 2016.3.2\bin\cmake\bin\cmake.exe" -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\surfe\GitHub\school\Theory\fib
+CMAKE_SOURCE_DIR = C:\Users\surfe\GitHub\euler-project-practice\problem-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\surfe\GitHub\school\Theory\fib\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\surfe\GitHub\euler-project-practice\problem-2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\surfe\GitHub\school\Theory\fib\cmake-build-debug\CMakeFiles C:\Users\surfe\GitHub\school\Theory\fib\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\surfe\GitHub\euler-project-practice\problem-2\cmake-build-debug\CMakeFiles C:\Users\surfe\GitHub\euler-project-practice\problem-2\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\surfe\GitHub\school\Theory\fib\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\surfe\GitHub\euler-project-practice\problem-2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named fib
+# Target rules for targets named problem-2
 
 # Build rule for target.
-fib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 fib
-.PHONY : fib
+problem-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 problem-2
+.PHONY : problem-2
 
 # fast build rule for target.
-fib/fast:
-	$(MAKE) -f CMakeFiles\fib.dir\build.make CMakeFiles/fib.dir/build
-.PHONY : fib/fast
+problem-2/fast:
+	$(MAKE) -f CMakeFiles\problem-2.dir\build.make CMakeFiles/problem-2.dir/build
+.PHONY : problem-2/fast
 
 main.obj: main.cpp.obj
 
@@ -128,7 +128,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\fib.dir\build.make CMakeFiles/fib.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\problem-2.dir\build.make CMakeFiles/problem-2.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -137,7 +137,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\fib.dir\build.make CMakeFiles/fib.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\problem-2.dir\build.make CMakeFiles/problem-2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -146,7 +146,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\fib.dir\build.make CMakeFiles/fib.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\problem-2.dir\build.make CMakeFiles/problem-2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -155,7 +155,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... fib
+	@echo ... problem-2
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main.obj

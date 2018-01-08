@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
-project(prime)
+project(problem-3)
 
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES main.cpp)
-add_executable(prime ${SOURCE_FILES})
+add_executable(problem-3 ${SOURCE_FILES})

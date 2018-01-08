@@ -123,5 +123,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/prime.dir/DependInfo.cmake"
+  "CMakeFiles/problem-3.dir/DependInfo.cmake"
   )
