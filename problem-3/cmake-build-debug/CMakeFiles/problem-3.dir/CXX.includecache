@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/surfe/GitHub/euler-project-practice/problem-3/main.cpp
+iostream
+-
+cmath
+-
+
